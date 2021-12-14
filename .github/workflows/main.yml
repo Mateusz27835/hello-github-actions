@@ -1,2 +1,12 @@
 name : Przepływ pracy dla mojego pliku Hello World 
 na : push
+
+jobs :
+   build :
+     name : Hello world akcja 
+    uruchomiona : ubuntu-najnowsze 
+    kroki :
+      - używa : actions/checkout@v1 
+      - używa : ./action-a 
+        z :
+           MY_NAME : " Mona "
