@@ -1,0 +1,17 @@
+name : " Hello Actions "
+ opis : " Pozdrów kogoś "
+ autor : " octocat@github.com "
+
+Wejścia :
+   MY_NAME :
+     Opis : „ Kto by przywitać ”
+     wymagane : prawdziwy 
+    domyślny : „ Świat ”
+
+uruchamia :
+   using : " docker "
+   image : " Dockerfile "
+
+branding :
+   ikona : " mic "
+   kolor : " fioletowy "
